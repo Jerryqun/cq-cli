@@ -1,0 +1,29 @@
+{
+  "name": "cq-cli-react",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cq-cli": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jerryqun/cq-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jerryqun/cq-cli/issues"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "12.1.0",
+    "fs-extra": "^9.0.0",
+    "inquirer": "^7.1.0",
+    "yargs": "17.7.2"
+  },
+  "homepage": "https://github.com/Jerryqun/cq-cli#readme"
+}
